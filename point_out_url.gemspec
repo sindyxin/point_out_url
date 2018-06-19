@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sindyxin1@gmail.com"]
 
   spec.summary       = %q{Specific method to point out url from text and convert url to clickable link for my application.}
-  spec.description   = %q{User liberal Regex for All URLs to test url from text and ruby build in .gsub method to make url clickable and point out.}
+  spec.description   = %q{Use liberal Regex for All URLs to test url from text and ruby build in .gsub method to make url clickable and point out.}
   spec.license       = "MIT"
 
 

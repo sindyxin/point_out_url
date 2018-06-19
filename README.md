@@ -2,7 +2,8 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/point_out_url`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Specific method to point out url from text and convert url to clickable link for my application.
+Use liberal Regex for All URLs to test url from text and ruby build in .gsub method to make url clickable and point out.
 
 ## Installation
 

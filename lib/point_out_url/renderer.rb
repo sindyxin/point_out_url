@@ -1,6 +1,6 @@
 module PointOutUrl
   class Renderer
-    def text_parser text
+    def self.text_parser text
       regex = %r{
         \b
           (
