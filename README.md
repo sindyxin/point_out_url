@@ -23,7 +23,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+module PagesHelper
+  def twitter_parser tweet
+    @tweet_url = PointOutUrl::Renderer.text_parser tweet
+  end
+end
+```
+
+<div class="card">
+    <%= twitter_parser tweet %>
+</div>
+
+Then, you will see all the tweet_text if there include url, will convert clickable url.
+Looks like below:
+> AaronCuddeback: RT @SheCanCodeHQ: How do you impress a potential employer when you have no professional Coding experience? https://t.co/EGVf1KERPn TechInt...
 
 ## Development
 
