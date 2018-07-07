@@ -15,7 +15,7 @@ gem 'point_out_url'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
